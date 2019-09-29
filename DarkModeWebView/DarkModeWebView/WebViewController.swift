@@ -142,7 +142,8 @@ class WebViewController: UIViewController, WKNavigationDelegate {
         self.webview?.navigationDelegate = self
         self.view.addSubview(webview!)
         
-        self.webview!.loadHTMLString(html, baseURL: nil)
+//        self.webview!.loadHTMLString(html, baseURL: nil)
+      self.webview?.load(URLRequest(url: URL(string: "https://m.youdao.com/dict?le=eng&q=apple")!))
         self.webview!.fillSuperview() // after view has been added as subview
     }
     

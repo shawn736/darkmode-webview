@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29260F3423405E14006202D8 /* darkmode.css in Resources */ = {isa = PBXBuildFile; fileRef = 29260F3223405E14006202D8 /* darkmode.css */; };
+		29260F3523405E14006202D8 /* darkmode.js in Resources */ = {isa = PBXBuildFile; fileRef = 29260F3323405E14006202D8 /* darkmode.js */; };
+		29260F3723405E1B006202D8 /* inject-darkmode.js in Resources */ = {isa = PBXBuildFile; fileRef = 29260F3623405E1B006202D8 /* inject-darkmode.js */; };
 		4001412522D482DC002CE5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4001412422D482DC002CE5B9 /* AppDelegate.swift */; };
 		4001412722D482DC002CE5B9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4001412622D482DC002CE5B9 /* WebViewController.swift */; };
 		4001412A22D482DC002CE5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4001412822D482DC002CE5B9 /* Main.storyboard */; };
 		4001412C22D482DF002CE5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4001412B22D482DF002CE5B9 /* Assets.xcassets */; };
 		4001412F22D482DF002CE5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4001412D22D482DF002CE5B9 /* LaunchScreen.storyboard */; };
-		4001413922D48810002CE5B9 /* darkmode.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 4001413622D48810002CE5B9 /* darkmode.min.js */; };
-		4001413A22D48810002CE5B9 /* darkmode.html in Resources */ = {isa = PBXBuildFile; fileRef = 4001413722D48810002CE5B9 /* darkmode.html */; };
 		4001413B22D48810002CE5B9 /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4001413822D48810002CE5B9 /* UIView+Autolayout.swift */; };
 		4001413D22D48827002CE5B9 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4001413C22D48827002CE5B9 /* demo.html */; };
-		4001413F22D48A00002CE5B9 /* darkmode-options.js in Resources */ = {isa = PBXBuildFile; fileRef = 4001413E22D48A00002CE5B9 /* darkmode-options.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29260F3223405E14006202D8 /* darkmode.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = darkmode.css; sourceTree = "<group>"; };
+		29260F3323405E14006202D8 /* darkmode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = darkmode.js; sourceTree = "<group>"; };
+		29260F3623405E1B006202D8 /* inject-darkmode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "inject-darkmode.js"; sourceTree = "<group>"; };
 		4001412122D482DC002CE5B9 /* DarkModeWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkModeWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4001412422D482DC002CE5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4001412622D482DC002CE5B9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
@@ -27,11 +30,8 @@
 		4001412B22D482DF002CE5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4001412E22D482DF002CE5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4001413022D482DF002CE5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4001413622D48810002CE5B9 /* darkmode.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = darkmode.min.js; sourceTree = "<group>"; };
-		4001413722D48810002CE5B9 /* darkmode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = darkmode.html; sourceTree = "<group>"; };
 		4001413822D48810002CE5B9 /* UIView+Autolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
 		4001413C22D48827002CE5B9 /* demo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
-		4001413E22D48A00002CE5B9 /* darkmode-options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "darkmode-options.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +67,10 @@
 				4001412422D482DC002CE5B9 /* AppDelegate.swift */,
 				4001412622D482DC002CE5B9 /* WebViewController.swift */,
 				4001413822D48810002CE5B9 /* UIView+Autolayout.swift */,
-				4001413722D48810002CE5B9 /* darkmode.html */,
 				4001413C22D48827002CE5B9 /* demo.html */,
-				4001413622D48810002CE5B9 /* darkmode.min.js */,
-				4001413E22D48A00002CE5B9 /* darkmode-options.js */,
+				29260F3223405E14006202D8 /* darkmode.css */,
+				29260F3323405E14006202D8 /* darkmode.js */,
+				29260F3623405E1B006202D8 /* inject-darkmode.js */,
 				4001412822D482DC002CE5B9 /* Main.storyboard */,
 				4001412B22D482DF002CE5B9 /* Assets.xcassets */,
 				4001412D22D482DF002CE5B9 /* LaunchScreen.storyboard */,
@@ -137,13 +137,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29260F3423405E14006202D8 /* darkmode.css in Resources */,
 				4001412F22D482DF002CE5B9 /* LaunchScreen.storyboard in Resources */,
 				4001413D22D48827002CE5B9 /* demo.html in Resources */,
-				4001413A22D48810002CE5B9 /* darkmode.html in Resources */,
+				29260F3523405E14006202D8 /* darkmode.js in Resources */,
 				4001412C22D482DF002CE5B9 /* Assets.xcassets in Resources */,
+				29260F3723405E1B006202D8 /* inject-darkmode.js in Resources */,
 				4001412A22D482DC002CE5B9 /* Main.storyboard in Resources */,
-				4001413922D48810002CE5B9 /* darkmode.min.js in Resources */,
-				4001413F22D48A00002CE5B9 /* darkmode-options.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N9A3EZJ753;
+				DEVELOPMENT_TEAM = Q86N2S3MFA;
 				INFOPLIST_FILE = DarkModeWebView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N9A3EZJ753;
+				DEVELOPMENT_TEAM = Q86N2S3MFA;
 				INFOPLIST_FILE = DarkModeWebView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
